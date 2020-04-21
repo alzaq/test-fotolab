@@ -1,0 +1,12 @@
+{
+  "name": "test-fotolab",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web:dev": "cd packages/web && npm run dev",
+    "web:build": "cd packages/web && npm run build",
+    "web:start": "cd packages/web && npm run start"
+  }
+}
