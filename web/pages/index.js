@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import api from "myapi";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Link href="/contact">
         <a>Contact Us!</a>
       </Link>
+      <pre>{JSON.stringify(api(), null, 2)}</pre>
     </>
   );
 };
