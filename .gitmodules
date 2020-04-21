@@ -1,0 +1,3 @@
+[submodule "libs"]
+	path = libs
+	url = https://alzaq@github.com/alzaq/test-libs
